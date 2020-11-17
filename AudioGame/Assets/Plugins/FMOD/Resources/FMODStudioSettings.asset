@@ -300,8 +300,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../FMOD Studio/Projects/2.01.05/AudioGame/AudioGame.fspro
-  sourceBankPath: ..\..\..\FMOD Studio\Projects\2.01.05\AudioGame\Build
+  sourceProjectPath: FMOD_AudioGame/FMOD_AudioGame.fspro
+  sourceBankPath: FMOD_AudioGame\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
