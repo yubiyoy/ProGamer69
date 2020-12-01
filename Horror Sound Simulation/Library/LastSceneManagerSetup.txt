@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/AP/Assets/Scenes/Default/Horror2.unity
+- path: Assets/AP/Assets/Scenes/Showroom/02_ShowRoom_Puzzle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
