@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{6bc14e3f-070e-448f-af7d-9f9aa7c2776b}">
+		<property name="assetPath">
+			<value>scatter/selected scatter/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3eabfc4f-ac0c-4885-904c-603ada8bef6b}</destination>
+		</relationship>
+	</object>
+</objects>

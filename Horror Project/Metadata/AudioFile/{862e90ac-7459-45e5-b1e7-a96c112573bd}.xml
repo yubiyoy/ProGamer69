@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{862e90ac-7459-45e5-b1e7-a96c112573bd}">
+		<property name="assetPath">
+			<value>Breaths Drone.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>116.57142857142857</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3eabfc4f-ac0c-4885-904c-603ada8bef6b}</destination>
+		</relationship>
+	</object>
+</objects>

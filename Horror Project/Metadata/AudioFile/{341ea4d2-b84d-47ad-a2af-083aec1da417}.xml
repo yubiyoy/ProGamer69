@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{341ea4d2-b84d-47ad-a2af-083aec1da417}">
+		<property name="assetPath">
+			<value>scatter/selected scatter/Bloody Nightmare - Breaths_21.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.2350104166666664</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3eabfc4f-ac0c-4885-904c-603ada8bef6b}</destination>
+		</relationship>
+	</object>
+</objects>
