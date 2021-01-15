@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{eda44024-8afa-4231-8e23-ee6375f23ccb}">
+		<property name="assetPath">
+			<value>HRDS WHOOSH - Come Into My House - Part_2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>25.714281249999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3eabfc4f-ac0c-4885-904c-603ada8bef6b}</destination>
+		</relationship>
+	</object>
+</objects>
