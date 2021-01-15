@@ -5,10 +5,10 @@
 			<value>Stinger Distant Noise</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2a236095-e51a-4c03-96d8-6bd56efc93a3}</destination>
+			<destination>{f55033eb-4748-41b6-b386-5bd23b0470f0}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{50d58dd8-70ba-4edb-9c7a-c4a74f7f3f9d}</destination>
@@ -122,6 +122,7 @@
 	<object class="MixerBusEffectChain" id="{a3007426-f091-4efa-a364-e9defae88e60}">
 		<relationship name="effects">
 			<destination>{c4e2307b-4ca8-4e69-8939-0e2cd168227f}</destination>
+			<destination>{ff2e5e2e-f645-4d71-8fcb-d30040d2eec5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ee47cb34-d689-42b6-bc8a-430cbc1f2a69}" />
@@ -149,6 +150,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{d7c809cf-f52c-4a35-bb23-ed1e99ace7a1}" />
 	<object class="MixerBusFader" id="{c4e2307b-4ca8-4e69-8939-0e2cd168227f}" />
+	<object class="SpatialiserEffect" id="{ff2e5e2e-f645-4d71-8fcb-d30040d2eec5}" />
 	<object class="AutomationPoint" id="{84012790-ed6f-4b32-8c0f-e2caec06e406}">
 		<property name="position">
 			<value>0</value>

@@ -5,7 +5,7 @@
 			<value>Ambience</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2a236095-e51a-4c03-96d8-6bd56efc93a3}</destination>
@@ -100,10 +100,13 @@
 			<destination>{3a95c40a-7b90-4494-8641-3bdb02e3538b}</destination>
 			<destination>{aed4f5d0-cc38-45e7-9d25-80f32a0abbbb}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{0334587c-d804-4acc-aa01-2c824ecce28f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{17e970ff-05f0-4d77-ad47-c9082f8004e6}">
 		<property name="volume">
-			<value>-12.5</value>
+			<value>-15.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{922b67f9-06dc-441e-81a0-b498b8793f87}</destination>
@@ -236,14 +239,31 @@
 			<destination>{17e970ff-05f0-4d77-ad47-c9082f8004e6}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{0334587c-d804-4acc-aa01-2c824ecce28f}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>116.57142857142857</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{8c0f099c-534c-4765-9c96-f98531d0ab9c}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{87b01976-922d-4374-8166-cba993d44106}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{922b67f9-06dc-441e-81a0-b498b8793f87}">
 		<relationship name="effects">
 			<destination>{bfe1b12f-9b21-44f7-9544-c8fa61fedb4a}</destination>
-			<destination>{387a2e6f-61b1-48c8-9e21-cde9902adca7}</destination>
 			<destination>{da018803-2ab7-4ea8-a4e5-95603b55ceea}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{d8c5f288-3451-4d0a-a25a-aa272497a2ca}" />
+	<object class="MixerBusPanner" id="{d8c5f288-3451-4d0a-a25a-aa272497a2ca}">
+		<property name="overridingOutputFormat">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{85a2e705-590e-4382-88c0-8bb49d42b3ce}" />
 	<object class="MixerBusEffectChain" id="{300c9bfe-1480-42b1-bf3a-d791d42d4d84}">
 		<relationship name="effects">
@@ -271,7 +291,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{627f4983-b8c1-4214-a252-f424da849cc7}" />
 	<object class="MixerBusFader" id="{bfe1b12f-9b21-44f7-9544-c8fa61fedb4a}" />
-	<object class="SpatialiserEffect" id="{387a2e6f-61b1-48c8-9e21-cde9902adca7}" />
 	<object class="MultibandEqEffect" id="{da018803-2ab7-4ea8-a4e5-95603b55ceea}">
 		<property name="filterTypeA">
 			<value>8</value>
