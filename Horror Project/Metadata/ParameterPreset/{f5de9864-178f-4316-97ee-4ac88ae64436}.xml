@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{f5de9864-178f-4316-97ee-4ac88ae64436}">
+		<property name="name">
+			<value>Level Ambience</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dbf715b5-3728-4263-b5b1-3c08a20b4038}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bffcf4be-7923-4879-ac64-9caaf74e1708}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bffcf4be-7923-4879-ac64-9caaf74e1708}">
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

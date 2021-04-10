@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d2bccc6b-37b9-4a1c-98d4-871a3fcb185b}">
 		<property name="name">
-			<value>Stinger Universal</value>
+			<value>Stinger Reverse</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{f55033eb-4748-41b6-b386-5bd23b0470f0}</destination>
+			<destination>{2a236095-e51a-4c03-96d8-6bd56efc93a3}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{7212b5b2-f541-4d2d-b053-92916c2abc97}</destination>
@@ -53,7 +53,7 @@
 			<destination>{c0502df9-6709-49e5-8aab-bc2964e5acdd}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2cb850af-34ca-473d-9400-e48850b07047}</destination>
+			<destination>{491af83e-895c-49bb-ba64-81cdc1e2b0af}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{fd22c336-bbcc-46b8-8b81-33659f2a9de0}" />

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{084b1635-f8ee-4494-9f37-d47da641052f}">
 		<property name="assetPath">
-			<value>HRDS WHOOSH - Come Into My House - Part_3.wav</value>
+			<value>woosh 1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

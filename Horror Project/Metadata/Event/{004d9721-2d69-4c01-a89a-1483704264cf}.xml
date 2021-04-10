@@ -5,10 +5,10 @@
 			<value>Stinger Startle</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{f55033eb-4748-41b6-b386-5bd23b0470f0}</destination>
+			<destination>{2a236095-e51a-4c03-96d8-6bd56efc93a3}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{8cd94e3d-6b8e-4e33-9060-047b81330f68}</destination>
@@ -53,7 +53,7 @@
 			<destination>{c7fb927a-954f-4adc-82cf-d66a17277ac6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{2cb850af-34ca-473d-9400-e48850b07047}</destination>
+			<destination>{491af83e-895c-49bb-ba64-81cdc1e2b0af}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{52803af4-a6cd-44f9-8253-fb44ea291600}" />
@@ -107,7 +107,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{1d91989a-77eb-4265-b47c-ad6b2b348283}">
 		<property name="volume">
-			<value>-13</value>
+			<value>-2</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -125,7 +125,6 @@
 	<object class="MixerBusEffectChain" id="{8dba618d-294d-481c-b565-2a08520e9d86}">
 		<relationship name="effects">
 			<destination>{896e0fcd-faab-4bc8-8aa1-983ba037e9d7}</destination>
-			<destination>{87533106-231f-45ed-9e98-edc79c636ef2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ead18227-5a3c-4c08-8f29-6d3424eda74a}" />
@@ -153,7 +152,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{ad3353d8-72d3-41ac-8312-5c9371c7f82c}" />
 	<object class="MixerBusFader" id="{896e0fcd-faab-4bc8-8aa1-983ba037e9d7}" />
-	<object class="SpatialiserEffect" id="{87533106-231f-45ed-9e98-edc79c636ef2}" />
 	<object class="AutomationPoint" id="{bced4d52-23a6-495d-8293-0bd8fafb42b5}">
 		<property name="position">
 			<value>0</value>
