@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: ProjectManagerDatas
   m_EditorClassIdentifier: 
   helpBoxEditor: 0
-  currentDatasProjectFolder: Demo
+  currentDatasProjectFolder: NewerestHorror
   int_CurrentDatasProjectFolder: 0
   int_CurrentDatasSaveSystem: 1
-  s_newProjectName: Name
+  s_newProjectName: NewerestHorror
   languageList:
   - Default
-  s_newLanguageName: French
+  s_newLanguageName: English
   firstSceneBuildInIndex: 1
   buildinList:
   - 01_DefaultScene

@@ -1,5 +1,25 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9213893992444029476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stinger Building Pulse/Pulse Level
+  m_EditorClassIdentifier: 
+  Name: Pulse Level
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-8654173017165402018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,6 +357,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 17000
+--- !u!114 &-6766053322405571696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Stinger Building Pulse/Pulse Level
+  m_EditorClassIdentifier: 
+  Name: Pulse Level
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-6622013316915023761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/Level Ambience
+  m_EditorClassIdentifier: 
+  Name: Level Ambience
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-6468582370594829803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -637,7 +697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../Horror Project/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637536815171033847
+  lastModified: 637537456436802426
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -684,7 +744,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 4660152003426199822}
+  - {fileID: -6766053322405571696}
   MinDistance: 0
   MaxDistance: 0
   Length: 10000
@@ -730,10 +790,30 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -7794945982495631685}
+  - {fileID: 3942893461192710}
   MinDistance: 1
   MaxDistance: 20
   Length: 600035
+--- !u!114 &-810527538186162818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Head WhispersD/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-680968515599466505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,7 +910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../Horror Project/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637536815171103647
+  lastModified: 637537456436822432
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -871,8 +951,28 @@ MonoBehaviour:
   - {fileID: -2474393138998087728}
   StringsBanks:
   - {fileID: -11973777497228242}
-  stringsBankWriteTime: 637536815171103647
+  stringsBankWriteTime: 637537456436822432
   cacheVersion: 5
+--- !u!114 &3942893461192710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Head WhispersD/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 1
+  Max: 3
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &74073300585630369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -953,11 +1053,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -2474393138998087728}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
+  MinDistance: 1
+  MaxDistance: 20
   Length: 8500
 --- !u!114 &2156953722889192431
 MonoBehaviour:
@@ -1265,11 +1365,11 @@ MonoBehaviour:
   Banks:
   - {fileID: -2474393138998087728}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
+  MinDistance: 1
+  MaxDistance: 20
   Length: 3500
 --- !u!114 &6238531146401213486
 MonoBehaviour:
@@ -1291,7 +1391,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2156953722889192431}
+  - {fileID: -6622013316915023761}
   MinDistance: 1
   MaxDistance: 20
   Length: 236270
@@ -1614,3 +1714,23 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Exists: 0
+--- !u!114 &8892679394319404448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambience/Level Ambience
+  m_EditorClassIdentifier: 
+  Name: Level Ambience
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1

@@ -5,7 +5,7 @@
 			<value>Stinger Door</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2a236095-e51a-4c03-96d8-6bd56efc93a3}</destination>
@@ -163,6 +163,7 @@
 	<object class="MixerBusEffectChain" id="{9912db4b-7c0c-4503-b5a9-cba27d0f3b42}">
 		<relationship name="effects">
 			<destination>{d27c7a1b-dba1-4a24-9eeb-c3e953e9f718}</destination>
+			<destination>{92bd8569-cf27-4f95-8bf6-c5bef145965b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a33db047-8e76-471c-bbf8-a513d89d9f38}" />
@@ -204,6 +205,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{eb367d66-e704-4f45-8466-b04737659b0a}" />
 	<object class="MixerBusFader" id="{d27c7a1b-dba1-4a24-9eeb-c3e953e9f718}" />
+	<object class="SpatialiserEffect" id="{92bd8569-cf27-4f95-8bf6-c5bef145965b}" />
 	<object class="AutomationPoint" id="{b98cbd74-e92f-42ac-ae66-0e100b1a66fe}">
 		<property name="position">
 			<value>0</value>
